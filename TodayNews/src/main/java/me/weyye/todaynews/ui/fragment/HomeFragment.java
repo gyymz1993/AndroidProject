@@ -80,7 +80,7 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
                 View.MeasureSpec.UNSPECIFIED);
         //重新测量
         tabChild.measure(w, h);
-        //设置最小宽度，使其可以在滑动一部分距离
+        //设置最小宽度，使其可以在滑动一部分距离  加了 一个图片后需要增宽
         tabChild.setMinimumWidth(tabChild.getMeasuredWidth() + tab.getTabWidth());
 
         vp.setOffscreenPageLimit(titles.length);

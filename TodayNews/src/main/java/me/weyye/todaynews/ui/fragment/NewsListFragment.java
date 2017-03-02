@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.nostra13.universalimageloader.utils.L;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,6 +88,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
             @Override
             public void onItemClick(View view, int i) {
                 News news = mDatas.get(i);
+                L.e("视频"+"http://m.toutiao.com".concat(news.source_url));
                 if (news.article_genre.equals(ConstanceValue.ARTICLE_GENRE_VIDEO)) {
                     //视频
                     Intent intent = new Intent(mContext, VideoDetailActivity.class);

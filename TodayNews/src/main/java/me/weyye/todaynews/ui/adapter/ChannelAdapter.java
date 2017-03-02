@@ -13,6 +13,7 @@ import android.widget.ImageView;
 
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.nostra13.universalimageloader.utils.L;
 
 import java.util.List;
 
@@ -56,6 +57,7 @@ public class ChannelAdapter extends BaseMultiItemQuickAdapter<Channel> {
 
     @Override
     protected void convert(final BaseViewHolder baseViewHolder, final Channel channel) {
+        L.e("baseViewHolder",baseViewHolder.getItemViewType());
         switch (baseViewHolder.getItemViewType()) {
             case Channel.TYPE_MY:
                 //我的频道

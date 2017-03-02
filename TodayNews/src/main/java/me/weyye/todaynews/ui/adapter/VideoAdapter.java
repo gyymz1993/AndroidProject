@@ -4,6 +4,7 @@ import android.widget.ImageView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.nostra13.universalimageloader.utils.L;
 
 import java.util.List;
 
@@ -45,6 +46,7 @@ public class VideoAdapter extends BaseQuickAdapter<News> {
                 @Override
                 public void onSuccess(Video s) {
                     news.video = s;
+                    L.e("视频解密地址"+s.main_url);
                     setPlayer(videoPlayer, news);
                 }
 

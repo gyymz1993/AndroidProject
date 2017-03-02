@@ -1,0 +1,18 @@
+Index: TodayNews/src/main/java/me/weyye/todaynews/model/VideoModel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TodayNews/src/main/java/me/weyye/todaynews/model/VideoModel.java	(revision )
++++ TodayNews/src/main/java/me/weyye/todaynews/model/VideoModel.java	(revision )
+@@ -5,7 +5,9 @@
+  */
+ 
+ public class VideoModel {
+-    
++
++
++
+     /**
+      * status : 10
+      * user_id : toutiao

@@ -30,4 +30,8 @@ public class MyApplication extends Application {
         // 初始化拍摄SDK，必须
         VCamera.initialize(this);
     }
+
+    static{
+        System.loadLibrary("utility");
+    }
 }
