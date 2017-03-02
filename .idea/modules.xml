@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidProject.iml" filepath="$PROJECT_DIR$/AndroidProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroadCastTest/BroadCastTest.iml" filepath="$PROJECT_DIR$/BroadCastTest/BroadCastTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataBingPro/DataBingPro.iml" filepath="$PROJECT_DIR$/DataBingPro/DataBingPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPCAidlPro/IPCAidlPro.iml" filepath="$PROJECT_DIR$/IPCAidlPro/IPCAidlPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVPRetrofitRxJava/MVPRetrofitRxJava.iml" filepath="$PROJECT_DIR$/MVPRetrofitRxJava/MVPRetrofitRxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxAndroid/RxAndroid.iml" filepath="$PROJECT_DIR$/RxAndroid/RxAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceLivePro/ServiceLivePro.iml" filepath="$PROJECT_DIR$/ServiceLivePro/ServiceLivePro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" filepath="$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TcpConnect/TcpConnect.iml" filepath="$PROJECT_DIR$/TcpConnect/TcpConnect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TodayNews/TodayNews.iml" filepath="$PROJECT_DIR$/TodayNews/TodayNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeiXinRecorded/WeiXinRecorded.iml" filepath="$PROJECT_DIR$/WeiXinRecorded/WeiXinRecorded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVPRetrofitRxJava/project.iml" filepath="$PROJECT_DIR$/MVPRetrofitRxJava/project.iml" />
+    </modules>
+  </component>
+</project>

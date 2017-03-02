@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/id_jp"
+        android:text="截屏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="screenShot"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/id_ig_view"
+        android:text="图片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.test.studyandroid.view.ClipView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_cv"
+        android:visibility="gone"
+        />
+
+    <com.test.studyandroid.view.WatchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_watchview"
+        android:visibility="gone"
+        />
+    <com.test.studyandroid.view.RlueView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_rlueview"
+        android:visibility="gone"
+        />
+
+    <com.test.studyandroid.view.LineView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_lineviewe"
+        android:visibility="gone"
+        />
+
+
+    <com.test.studyandroid.view.LineView2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_lineviewe2"
+        android:visibility="gone"
+        />
+
+    <com.test.studyandroid.view.Rect1View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_rect1view"
+        android:visibility="gone"
+        />
+
+    <com.test.studyandroid.view.Rect3View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_rect3view"
+        android:visibility="gone"
+        />
+    <com.test.studyandroid.view.ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_imageview"
+        />
+</LinearLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:enabled="false"
+        android:gravity="right"
+        />
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="53sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MEM :"
+            />
+
+        <TextView
+            android:id="@+id/id_tv_mem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:editable="false"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="53sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DEG"
+            />
+
+        <Button
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="MC"
+            />
+
+        <Button
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="C"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/id_btn_drg"
+        style="@style/layout_horizontal"
+        android:layout_weight="1"
+        android:text="DRG"
+        />
+
+        <Button
+            android:id="@+id/id_btn_sin"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="Sin"
+            />
+
+        <Button
+            android:id="@+id/id_btn_cos"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="Cos"
+            />
+
+        <Button
+            android:id="@+id/id_btn_tan"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="Tan"
+            />
+
+        <Button
+            android:id="@+id/id_btn_n"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="!n"
+            />
+
+        <Button
+            android:id="@+id/id_btn_bk"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="Bksp"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/id_btn_seven"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="7"
+            />
+
+        <Button
+            android:id="@+id/id_btn_eigth"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="8"
+            />
+
+        <Button
+            android:id="@+id/id_btn_nine"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="9"
+            />
+
+        <Button
+            android:id="@+id/id_btn_devided"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="/"
+            />
+
+        <Button
+            android:id="@+id/id_btn_bracket_left"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="("
+            />
+
+        <Button
+            android:id="@+id/id_btn_bracket_right"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text=")"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/id_btn_four"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="4"
+            />
+
+        <Button
+            android:id="@+id/id_btn_five"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="5"
+            />
+
+        <Button
+            android:id="@+id/id_btn_six"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="6"
+            />
+
+        <Button
+            android:id="@+id/id_btn_mulpitly"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="*"
+            />
+
+        <Button
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text=" √"
+            />
+
+        <Button
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="^"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/id_btn_one"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="1"
+            />
+
+        <Button
+            android:id="@+id/id_btn_two"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="2"
+            />
+
+        <Button
+            android:id="@+id/id_btn_three"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="3"
+            />
+
+        <Button
+            android:id="@+id/id_btn_subtarct"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="-"
+            />
+
+        <Button
+            android:id="@+id/id_btn_log"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="Lon"
+            />
+
+        <Button
+            android:id="@+id/id_btn_in"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="In"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/id_btn_zero"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/id_btn_dot"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="."
+            />
+
+        <Button
+            android:id="@+id/id_btn_equel"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="="
+            />
+
+        <Button
+            android:id="@+id/id_btn_add"
+            style="@style/layout_horizontal"
+            android:layout_weight="1"
+            android:text="+"
+            />
+
+        <Button
+            android:id="@+id/id_btn_exit"
+            style="@style/layout_horizontal"
+            android:layout_weight="0.8"
+            android:text="Exit"
+            />
+
+    </TableRow>
+
+</LinearLayout>

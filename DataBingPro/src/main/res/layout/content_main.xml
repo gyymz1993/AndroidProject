@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="java.util.ArrayList"/>
+        <import type="java.util.HashMap"/>
+
+        <variable
+            name="listKey"
+            type="int"/>
+        <variable
+            name="mapKey"
+            type="String"/>
+        <variable
+            name="arrayKey"
+            type="int"/>
+
+        <variable
+            name="str"
+            type="String"/>
+        <variable
+            name="error"
+            type="boolean"/>
+        <variable
+            name="num"
+            type="int"/>
+
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{list[listKey]}"-->
+            <!--android:onClick="@{clickListener}"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{map[`name`]}"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@{array[0]}"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{str}"
+            android:onClick="@{clickListener}"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(num)}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{error ? "error" : "ok"}'/>
+    </LinearLayout>
+
+</layout>

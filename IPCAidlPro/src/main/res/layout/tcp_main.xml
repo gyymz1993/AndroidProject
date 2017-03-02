@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText android:id="@+id/msgEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom" />
+
+        <Button android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送" />
+    </LinearLayout>
+
+    <com.view.LinedText
+        android:id="@+id/msgText"
+        android:layout_width="fill_parent"
+        android:layout_height="460dip"
+        android:background="@android:color/white"
+        android:padding="5dip"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:textColor="@android:color/black"
+        android:gravity="top" android:textSize="15dip"
+        android:capitalize="sentences"
+        android:layout_above="@+id/bottomLayout"/>
+
+</RelativeLayout>

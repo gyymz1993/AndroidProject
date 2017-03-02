@@ -1,0 +1,15 @@
+（1）RoboBinding？
+
+RoboBinding是一款基于Android的数据绑定组件，支持双向绑定等，比较成熟，和DataBinding 类似，
+因为DataBinding借鉴了RoboBinding，目前DataBinding只支持单向绑定。
+与DataBinding相比较， RoboBinding更为成熟，并且支持双向绑定，但是因为DataBinding是Google亲儿子
+，以后肯定会不断改进，会成为Android新特性，所以采用DataBinding可能更现实，但是我本人并不排斥RoboBinding
+，通过体验RoboBinding也很不错，侵入性并不是很强
+
+需要多次使用findViewById，损害了应用性能且令人厌烦
+更新UI数据需切换至UI线程，将数据分解映射到各个view比较麻烦
+对于第二个问题，谷歌提供了Loop-Handler方案，你还可以使用RxJava，EventBus等方案，但它们只是解决了线程切换的问题，
+却没有解决将数据分解映射到各个view的问题，这正是DataBinding的魅力所在！同时，DataBinding的线程切换也是透明的，
+这是指，当你的Activity需要展示新的数据时，你可以在后台线程中获取数据，然后直接交给DataBinding就可以了，
+完全不需要关心线程切换的问题。
+

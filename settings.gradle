@@ -1,0 +1,1 @@
+include ':SlidingMenuLib', ':BroadCastTest', ':RxAndroid', ':MVPRetrofitRxJava', ':DataBingPro', ':IPCAidlPro', ':ServiceLivePro', ':TcpConnect', ':WeiXinRecorded', ':TodayNews', ':jcvideoplayer-lib'

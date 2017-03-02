@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="study.com.demo">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".LiveActivity"
+            android:theme="@style/LiveStyle"
+            ></activity>
+
+
+        <service
+            android:name=".processlive.KeepLiveService"
+            android:enabled="true"
+            android:exported="true" />
+        <!--<service android:name=".processlive.KeepLiveService$InnerService" />-->
+        <service
+            android:name=".processlive.MyJobService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".processlive.LiveService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <!--<service android:name=".utils.LiveService"-->
+            <!--android:process=":live_service"-->
+            <!--&gt;</service>-->
+
+    </application>
+
+</manifest>

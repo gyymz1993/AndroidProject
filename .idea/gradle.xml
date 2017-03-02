@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BroadCastTest" />
+            <option value="$PROJECT_DIR$/DataBingPro" />
+            <option value="$PROJECT_DIR$/IPCAidlPro" />
+            <option value="$PROJECT_DIR$/MVPRetrofitRxJava" />
+            <option value="$PROJECT_DIR$/RxAndroid" />
+            <option value="$PROJECT_DIR$/ServiceLivePro" />
+            <option value="$PROJECT_DIR$/SlidingMenuLib" />
+            <option value="$PROJECT_DIR$/TcpConnect" />
+            <option value="$PROJECT_DIR$/TodayNews" />
+            <option value="$PROJECT_DIR$/WeiXinRecorded" />
+            <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BroadCastTest" />
+            <option value="$PROJECT_DIR$/DataBingPro" />
+            <option value="$PROJECT_DIR$/IPCAidlPro" />
+            <option value="$PROJECT_DIR$/MVPRetrofitRxJava" />
+            <option value="$PROJECT_DIR$/RxAndroid" />
+            <option value="$PROJECT_DIR$/ServiceLivePro" />
+            <option value="$PROJECT_DIR$/SlidingMenuLib" />
+            <option value="$PROJECT_DIR$/TcpConnect" />
+            <option value="$PROJECT_DIR$/TodayNews" />
+            <option value="$PROJECT_DIR$/WeiXinRecorded" />
+            <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
