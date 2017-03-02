@@ -5,10 +5,7 @@ package me.weyye.todaynews.model;
  */
 
 public class VideoModel {
-
-
-    /**我修改了**/
-
+    
     /**
      * status : 10
      * user_id : toutiao
